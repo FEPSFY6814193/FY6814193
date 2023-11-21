@@ -1,47 +1,122 @@
  <!DOCTYPE html>
-        <html lang="en">
-          <head>
-            <img src="WebBanner2023.png" alt="Banner" width="1200" height="300">
-            <h1><b>ENG0018 Computer Laboratory 2023/24</b></h1>
-            <h2>Student URN: 6814193</h2>
-            <hr>
-            <h2 style="font-family: calibri;"><b>Conference paper: Asphalt Roads</b></h2>
-            <hr>
-          </head>
-          <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Asphalt in Road Construction</title>
-            <style>
-                /* General Body Styling */
-                body {
-                    font-family: 'Arial', sans-serif;
-                    line-height: 1.6;
-                    margin: 0;
-                    padding: 0;
-                    background: #f4f4f4;
-                    color: #333;
-                }
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asphalt in Road Construction</title>
+    <style>
+        /* General Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
 
-                /* Navigation Bar Styling */
-                nav {
-                    display: flex;
-                    justify-content: center;
-                    background: #444;
-                    padding: 10px 0;
-                    position: sticky;
-                    top: 0;
-                    z-index: 1000;
-                }
-                nav a {
-                    color: white;
-                    padding: 10px 20px;
-                    text-decoration: none;
-                    transition: background 0.3s ease;
-                }
-                nav a:hover {
-                    background: #555;
-                }
+        /* Header Styling with Background Image */
+        header {
+            background: url('https://images.unsplash.com/photo-1571035330093-fd93f6321a7b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center / cover;
+            color: #fff;
+            padding: 100px 0; /* Adjust padding to suit your design */
+            text-align: center;
+        }
+
+        /* Navigation Bar Styling */
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        nav a:hover {
+            background: #555;
+        }
+
+        /* Main Content Styling */
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Image Gallery */
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .image-gallery img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+        .image-gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #333;
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            .image-gallery img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="WebBanner2023.png" alt="Banner" style="width:100%; height:auto;">
+    <h1><b>ENG0018 Computer Laboratory 2023/24</b></h1>
+    <h2>Student URN: 6814193</h2>
+    <hr>
+    <h2 style="font-family: calibri;"><b>Conference paper: Asphalt Roads</b></h2>
+    <hr>
+
+    <header>
+        <h1>What Makes Asphalt the Unquestioned Champion of Road Construction?</h1>
+    </header>
+    
+    <nav>
+        <a href="#abstract">Abstract</a>
+        <a href="#introduction">Introduction</a>
+        <a href="#history">History and Evolution</a>
+        <a href="#benefits">Benefits of Using Asphalt</a>
+        <a href="#concrete">Concrete Roads: Pros and Cons</a>
+        <a href="#economic">Economic Implications</a>
+        <a href="#environmental">Environmental Considerations</a>
+        <a href="#conclusion">Conclusion</a>
+        <a href="#references">References</a>
+    </nav>
 
                 /* Main Content Styling */
                 main {
