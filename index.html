@@ -1,193 +1,237 @@
  <!DOCTYPE html>
-                    <html lang="en">
-                    <head>
-                        <meta charset="UTF-8">
-                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                        <title>Asphalt in Road Construction</title>
-                        <style>
-                            /* General Body Styling */
-                            body {
-                                font-family: 'Arial', sans-serif;
-                                line-height: 1.6;
-                                margin: 0;
-                                padding: 0;
-                                background: #f4f4f4;
-                                color: #333;
-                            }
+                                       <html lang="en">
+                                       <head>
+                                           <meta charset="UTF-8">
+                                           <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                                           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                           <title>Asphalt in Road Construction</title>
+                                           <style>
+                                               /* General Body Styling */
+                                               body {
+                                                   font-family: 'Arial', sans-serif;
+                                                   line-height: 1.6;
+                                                   margin: 0;
+                                                   padding: 0;
+                                                   background: #f4f4f4;
+                                                   color: #333;
+                                               }
 
-                            /* Header Styling with New Background Image */
-                            header {
-                                background: url('https://www.1zoom.me/big2/502/270385-Berserker.jpg') no-repeat center center / cover;
-                                color: #fff;
-                                padding: 100px 0; /* Adjust padding to suit your design */
-                                text-align: center;
-                            }
+                                               /* Header Styling with New Background Image */
+                                               header {
+                                                   background: url('https://www.1zoom.me/big2/502/270385-Berserker.jpg') no-repeat center center / cover;
+                                                   color: #fff;
+                                                   padding: 100px 0; /* Adjust padding to suit your design */
+                                                   text-align: center;
+                                               }
 
-                            /* Navigation Bar Styling */
-                            nav {
-                                display: flex;
-                                justify-content: center;
-                                background: #444;
-                                padding: 10px 0;
-                                position: sticky;
-                                top: 0;
-                                z-index: 1000;
-                            }
-                            nav a {
-                                color: white;
-                                padding: 10px 20px;
-                                text-decoration: none;
-                                transition: background 0.3s ease;
-                            }
-                            nav a:hover {
-                                background: #555;
-                            }
+                                               /* Navigation Bar Styling */
+                                               nav {
+                                                   display: flex;
+                                                   justify-content: center;
+                                                   background: #444;
+                                                   padding: 10px 0;
+                                                   position: top;
+                                                   top: 0;
+                                                   z-index: 1000;
+                                               }
+                                               nav a {
+                                                   color: white;
+                                                   padding: 10px 20px;
+                                                   text-decoration: none;
+                                                   transition: background 0.3s ease;
+                                               }
+                                               nav a:hover {
+                                                   background: #555;
+                                               }
 
-                            /* Main Content Styling */
-                            main {
-                                padding: 20px;
-                                max-width: 800px;
-                                margin: 20px auto;
-                            }
-                            section {
-                                background: white;
-                                padding: 20px;
-                                margin-bottom: 20px;
-                                border-radius: 5px;
-                                box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-                            }
+                                               /* Main Content Styling */
+                                               main {
+                                                   padding: 20px;
+                                                   max-width: 800px;
+                                                   margin: 20px auto;
+                                               }
+                                               section {
+                                                   background: white;
+                                                   padding: 20px;
+                                                   margin-bottom: 20px;
+                                                   border-radius: 5px;
+                                                   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+                                               }
 
-                            /* Image Gallery */
-                            .image-gallery {
-                                display: flex;
-                                flex-wrap: wrap;
-                                gap: 10px;
-                                justify-content: center;
-                                margin-bottom: 20px;
-                            }
-                            .image-gallery img {
-                                width: 100%;
-                                max-width: 200px;
-                                border-radius: 5px;
-                                transition: transform 0.3s ease;
-                            }
-                            .image-gallery img:hover {
-                                transform: scale(1.1);
-                            }
+                                               /* Image Gallery */
+                                               .image-gallery {
+                                                   display: flex;
+                                                   flex-wrap: wrap;
+                                                   gap: 10px;
+                                                   justify-content: center;
+                                                   margin-bottom: 20px;
+                                               }
+                                               .image-gallery img {
+                                                   width: 100%;
+                                                   max-width: 200px;
+                                                   border-radius: 5px;
+                                                   transition: transform 0.3s ease;
+                                               }
+                                               .image-gallery img:hover {
+                                                   transform: scale(1.1);
+                                               }
 
-                            /* Footer Styling */
-                            footer {
-                                text-align: center;
-                                padding: 20px 0;
-                                background: #333;
-                                color: white;
-                            }
+                                               /* Footer Styling */
+                                               footer {
+                                                   text-align: center;
+                                                   padding: 20px 0;
+                                                   background: #333;
+                                                   color: white;
+                                               }
 
-                            /* Responsive Design */
-                            @media screen and (max-width: 600px) {
-                                nav {
-                                    flex-direction: column;
-                                }
-                                .image-gallery img {
-                                    max-width: 100%;
-                                }
-                            }
-                      
-                  </style>
-              </head>
-              <body>
-                  <img src="WebBanner2023.png" alt="Banner" style="width:100%; height:auto;">
-                  <h1><b>ENG0018 Computer Laboratory 2023/24</b></h1>
-                  <h2>Student URN: 6814193</h2>
-                  <hr>
-                  <h2 style="font-family: calibri;"><b>Conference paper: Asphalt Roads</b></h2>
-                  <hr>
+                                               /* Responsive Design */
+                                               @media screen and (max-width: 600px) {
+                                                   nav {
+                                                       flex-direction: column;
+                                                   }
+                                                   .image-gallery img {
+                                                       max-width: 100%;
+                                                   }
+                                               }
 
-                  <header>
-                      <h1>What Makes Asphalt the Unquestioned Champion of Road Construction?</h1>
-                  </header>
+                                     </style>
+                                 </head>
+                                 <body>
+                                     <img src="WebBanner2023.png" alt="Banner" style="width:100%; height:auto;">
+                                     <h1><b>ENG0018 Computer Laboratory 2023/24</b></h1>
+                                     <h2>Student URN: 6814193</h2>
+                                     <hr>
+                                     <h2 style="font-family: calibri;"><b>Conference paper: Asphalt Roads</b></h2>
+                                     <hr>
 
-                  <nav>
-                      <a href="#abstract">Abstract</a>
-                      <a href="#introduction">Introduction</a>
-                      <a href="#history">History and Evolution</a>
-                      <a href="#benefits">Benefits of Using Asphalt</a>
-                      <a href="#concrete">Concrete Roads: Pros and Cons</a>
-                      <a href="#economic">Economic Implications</a>
-                      <a href="#environmental">Environmental Considerations</a>
-                      <a href="#conclusion">Conclusion</a>
-                      <a href="#references">References</a>
-                  </nav>
+                                     <header>
+                                         <h1>What Makes Asphalt the Unquestioned Champion of Road Construction?</h1>
+                                     </header>
 
-                
-    <main>
-        <section id="abstract">
-            <h2>Abstract</h2>
-            <p>In the changing world of road construction, one material has risen to the lead; asphalt. This article looks at why asphalt is the preferred choice for paving roads surpassing concrete. By going into the characteristics of these materials it aims to highlight the advantages that come with using asphalt, such as cost effectiveness, durability, and ease of maintenance. Through an examination of engineering techniques and practices, this study sheds light on how asphalt can be applied to create resilient roads that can withstand various challenges. By revealing findings, it emphasises the role of asphalt in improving the longevity and quality of roads. In conclusion, it underscores the impact and importance of choosing asphalt as a means to develop long-lasting road infrastructures.</p>
-          <img src="https://www.asphaltmn.com/assets/img/blogs/minnesota-construction-asphalt-paving.jpg" alt="Abstract Image" style="width:100%; max-width:900px; height:auto;">
-          <p>
-        </section>
-        <section id="introduction">
-            <h2>Introduction</h2>
-            <p>The importance of roads cannot be underestimated, as they serve as the vital link between cultures and trade. In the realm of engineering, one may wonder why asphalt is preferred over other materials when it comes to building roads. The answer is due to the combination of robust and elegant engineering that asphalt brings to the table. The utilisation of asphalt is not a coincidence, as it denotes a calculation of choices that are influenced by factors like cost-effectiveness, durability, and adaptability.
-            The article looks into the intricate details involved in the decision-making process when it comes to building roads. We will explore the world of material science and discover the attributes that make asphalt an ideal choice for road construction. Through in-depth examinations and discussions, we'll be able to gain a deeper understanding of why this material is so popular. Through an exploration of various engineering theories, we will be able to reveal the secrets behind asphalts' role in shaping the road's architectural appearance.
-</p>
-        </section>
-        <section id="history">
-            <h2>History and Evolution</h2>
-            <p>The history of road construction is diverse and fascinating dating back, to civilisations that carved out paths using stones and gravel (popular science, 2019). Over time advancements in technology have revolutionised road building introducing materials like asphalt and concrete as the choices. Asphalt durability is exemplified by the German Autobahn, predominantly constructed with asphalt and renowned for enduring heavy traffic and high speeds. Its longevity is significantly enhanced by the use of a thick asphalt layer, which minimizes the need for frequent repairs and showcases asphalt's resilience (TRB, 2023).
-             On the other hand, concrete offered a sturdy alternative that boasted impressive strength and a long lifespan. Together asphalt and concrete have played roles in shaping the development of roadways throughout history. Each material has its qualities and has contributed to continuous innovation as transportation needs to evolve and infrastructure continues to develop (britannica, 2023).
-</p>
-         <img src="https://www.leritzbusybee.com/wp-content/uploads/2019/10/leritzoct1.jpg" alt="History Image" style="width:100%; max-width:900px; height:auto;">
-        </section>
-        <section id="benefits">
-            <h2>Benefits of Using Asphalt for Roads</h2>
-            <p>When it comes to building roads, asphalt is often regarded as the most sustainable material. Its various advantages make it an ideal choice for both urban and rural areas. Its flexible and resilient characteristics allow it to endure the effects of weather and traffic (apai, 2023).
-            Maintaining and repairing asphalt roads can be a straightforward process that is very cost-effective and lasts for a long time (apai, 2023). This material can also help reduce traffic noise, which is very helpful in providing a tranquil environment for both suburban and urban areas (eapa.org, 2023).
-            The ability of asphalt to set quickly during the construction process helps minimise delays and disruptions in the flow of traffic. It also ensures the smooth and uninterrupted operation of society's activities (eapa.org, 2023).
-</p>
-        </section>
-        <section id="concrete">
-            <h2>Concrete Roads: Pros and Cons</h2>
-            <p>The structural strength of concrete roads is what makes them stand out from the rest. Their rigid construction allows them to endure the wear and tear of time. Also, their natural reflective surface helps improve visibility in the dark (perrin, 2023).
-            Despite their structural strength, concrete roads can still be challenging to maintain due to their various characteristics. One of these is their susceptibility to damage caused by wintry weather. This vulnerability can affect the integrity of the concrete structure (perrin, 2023).
-            Concrete roads offer powerful endurance and strength. But they also face challenges in terms of environmental and maintenance issue (DASWELL, 2022).
-</p>
-         <img src="https://media.licdn.com/dms/image/D4D12AQHsoGBxLJHx9Q/article-cover_image-shrink_720_1280/0/1682516879818?e=2147483647&v=beta&t=-CMcGhukjhRZJnTqiFZfN9MhilWtZJeuJFv_fHaLcw0" alt="concrete Image" style="width:100%; max-width:900px; height:auto;">
-        </section>
-        <section id="economic">
-            <h2>Economic Implications</h2>
-            <p>The economics of maintaining and building roads are often complex, as they involve both long-term investments and initial costs. With the right materials and construction techniques, asphalt can provide immediate benefits. Its maintenance also helps maintain a budget-friendly road system (DASWELL, 2022).
-            Compared to asphalt, concrete is more expensive. This material also requires a larger upfront investment. The maintenance of concrete roads typically leads to grand and costly productions that require a lot of resources and lengthy road closures (perrin, 2023).
-            The convenience and productivity of asphalt contribute to its smooth and economical appearance. On the other hand, concrete can introduce a bit of dissonance in the economic melody of its higher maintenance costs (Linkedin, 2023).
-</p>
-        </section>
-        <section id="environmental">
-            <h2>Environmental Considerations</h2>
-            <p>When it comes to choosing the right materials for road construction, environmental factors play a significant role. For instance, asphalt is more eco-friendly than concrete. It can be reused and recycled, which helps minimise waste and conserve resources. Also, it absorbs less heat, which helps maintain a cool urban environment (Linkedin, 2023).
-            Compared to concrete, asphalt tends to release more greenhouse gases when it's produced, which can contribute to climate change and affect air quality. On the other hand, concrete roads have better albedo effects, which help absorb less heat and reflect sunlight (Linkedin, 2023).
-            Concrete production is resource-intensive, and it also has an extensive impact on the environment. Both concrete and asphalt have their distinct environmental challenges that need to be evaluated to make informed decisions (for construction pros, 2023).
-</p>
-        </section>
-        <section id="conclusion">
-            <h2>Conclusion</h2>
-            <p>The study aimed to analyse and discuss the prevailing wisdom behind the using asphalt as the primary material for road construction over concrete. Through a comprehensive analysis of various factors, such as historical developments, the paper was able to reveal that asphalt is more beneficial for the transportation industry than concrete.
-            In conclusion, compared to concrete, asphalt offers a practical approach to addressing the immediate infrastructural needs of the transportation sector. It is more cost-effective, adaptable to environmental demands, and flexible enough to meet the needs of varying traffic loads. Concrete is expensive, vulnerable to environmental elements, and has a lengthy curing time.
-            we also explored the various decision-making processes that are involved in the construction of roads. It revealed that the choice of material for the project is not just a technical matter but a complex one that involves multiple factors such as environmental impact, societal expectations, and economic considerations. Through the study, we were able to gain a deeper understanding of the various factors that affect the decisions that are involved in the construction of roads.
-</p>
-           </section>
-    
-          <section id="references">
-              <h2>References</h2>
-              <ul>
-                  <li>apai, 2023. BENEFITS OF ASPHALT. [Online] Available at: <a href="https://www.apai.net/Files/content/Asphalt/Asphalt_Benefits_Page.pdf">https://www.apai.net/Files/content/Asphalt/Asphalt_Benefits_Page.pdf</a> [Accessed 25 10 2023].</li>
-                  <li>britannica, 2023. road. [Online] Available at: <a href="https://www.britannica.com/technology/road">https://www.britannica.com/technology/road</a> [Accessed 25 10 2023].</li>
-                  <li>DASWELL, 2022. Asphalt Road VS Concrete Road: Pros And Cons. [Online] Available at: <a href="https://daswell.com/blog/compare-asphalt-road-and-concrete-road/">https://daswell.com/blog/compare-asphalt-road-and-concrete-road/</a> [Accessed 25 10 2023].</li>
-                  <li>eapa.org, 2023. Advantages of Asphalt. [Online] Available at: <a href="https://eapa.org/advantages-of-asphalt/">https://eapa.org/advantages-of-asphalt/</a> [Accessed 25 10 2023].</li>
-                  <li>Linkedin, 2023. Asphalt vs Concrete Roads: Which is Better?. [Online] Available at: <a href="https://www.linkedin.com/pulse/asphalt-vs-concrete-roads-which-better-nitesh-tank">https://www.linkedin.com/pulse/asphalt-vs-concrete-roads-which-better-nitesh-tank</a> [Accessed 26 10 2023].</li>
-                  <li>perrin, 2023. Concrete vs Asphalt Roads: Pros and Cons of Each. [Online] Available at: <a href="https://www.perrinconstructionredding.com/blog/2018/9/25/concrete-vs-asphalt-roads-pros-and-cons-of-each">https://www.perrinconstructionredding.com/blog/2018/9/25/concrete-vs-asphalt-roads-pros-and-cons-of-each</a> [Accessed 25 10 2023].</li>
-                  <li>popular science, 2019. The history—and future—of hitting the road. [Online] Available at: <a href="https://www.popsci.com/history-future-roads-feature/">https://www.popsci.com/history-future-roads-feature/</a> [Accessed 26 10 2023].</li>
-   
-              </ul>
-          </section>
+                                     <nav>
+                                         <a href="#abstract">Abstract</a>
+                                         <a href="#introduction">Introduction</a>
+                                         <a href="#history">History and Evolution</a>
+                                         <a href="#benefits">Benefits of Using Asphalt</a>
+                                         <a href="#concrete">Concrete Roads: Pros and Cons</a>
+                                         <a href="#economic">Economic Implications</a>
+                                         <a href="#environmental">Environmental Considerations</a>
+                                         <a href="#conclusion">Conclusion</a>
+                                         <a href="#references">References</a>
+                                     </nav>
+
+
+                       <main>
+                           <section id="abstract">
+                               <h2>Abstract</h2>
+                               <p>In the changing world of road construction, one material has risen to the lead; asphalt. This article looks at why asphalt is the preferred choice for paving roads surpassing concrete. By going into the characteristics of these materials it aims to highlight the advantages that come with using asphalt, such as cost effectiveness, durability, and ease of maintenance. Through an examination of engineering techniques and practices, this study sheds light on how asphalt can be applied to create resilient roads that can withstand various challenges. By revealing findings, it emphasises the role of asphalt in improving the longevity and quality of roads. In conclusion, it underscores the impact and importance of choosing asphalt as a means to develop long-lasting road infrastructures.</p>
+                             <img src="https://www.asphaltmn.com/assets/img/blogs/minnesota-construction-asphalt-paving.jpg" alt="Abstract Image" style="width:100%; max-width:700px; height:auto;">
+
+                              <figcaption> Figure 1. "Modren road paving machinery in operation" By (Zemco Asphalt, 2023).
+                           </section>
+                           <section id="introduction">
+                               <h2>Introduction</h2>
+                               <p>The importance of roads cannot be underestimated, as they serve as the vital link between cultures and trade. In the realm of engineering, one may wonder why asphalt is preferred over other materials when it comes to building roads? The answer is due to the combination of robust and elegant engineering that asphalt brings to the table. The utilisation of asphalt is not a coincidence, as it denotes a calculation of choices that are influenced by factors like cost-effectiveness, durability, and adaptability.
+                               The article looks into the intricate details involved in the decision-making process when it comes to building roads. We will explore the world of material science and discover the attributes that make asphalt an ideal choice for road construction. Through in-depth examinations and discussions, we will be able to gain a deeper understanding of why this material is so popular. Through an exploration of various engineering theories, we will be able to reveal the secrets behind asphalts' role in shaping the road's architectural appearance.
+                   </p>
+                             <img src="https://www.devostock.com/static2/preview2/stock-photo-devostock-beautiful-nature-scene-4k-8626.jpg" alt="introduction Image" style="width:100%; max-width:900px; height:auto;">
+                             <figcaption> Figure 2. "Twisting Journeyes: Road to Innovation in Asphalt and Concrete." By (devostock, 2018).
+                           </section>
+                           <section id="introduction">
+                               <h2>History and Evolution</h2>
+                               <p>The history of asphalt dates back to ancient civilisations, such as the Egyptians and Babylonians. During the 18th century, the first commercial asphalt road was laid in Paris using natural asphalt. The industry's evolution during the 19th and early 20th century shifted the production of asphalt, which had been mainly derived from natural resources (unique paving materials, 2015).
+                                 The rise of the automobile industry drove the demand for asphalt, which was already widely used for its smooth and resilient surface. Technological developments over the years have resulted in new additives that can improve its environmental friendliness and durability. As a result, asphalt continues to be a vital component of road construction (unique paving materials, 2015).
+
+                   </p>
+                            <img src="https://www.leritzbusybee.com/wp-content/uploads/2019/10/leritzoct1.jpg" alt="History Image" style="width:100%; max-width:900px; height:auto;">
+                             <figcaption> Figure 3. "Historical Image of Road Construction" By (John Davis, 2023).
+
+                               
+                             </figcaption>
+                             
+                           </section>
+                           <section id="benefits">
+                               <h2>Benefits of Using Asphalt for Roads</h2>
+                               <p>In the context of road construction, asphalt is frequently considered the most environmentally friendly material. It is the best option for both urban and rural locations due to its many benefits. It can withstand the effects of weather and traffic because of its adaptable and strong qualities (apai, 2023).
+                                 Long-lasting, and simple-to-maintain asphalt roads can be achieved through repair and maintenance (apai, 2023). Additionally, this material can aid in reducing road noise, which is particularly beneficial in creating a calm atmosphere in both suburban and metropolitan regions (eapa.org, 2023).
+                                 The ability of asphalt to set quickly during the construction process helps minimise delays and disruptions in the flow of traffic. It also ensures the smooth and uninterrupted operation of society's activities (eapa.org, 2023).
+
+                   </p>
+                             <img src="https://daswell.com/kind/image/20221209/20221209164839_77980.jpg" alt="benefits Image" style="width:100%; max-width:900px; height:auto;">
+                              <figcaption> Figure 4. "Comparative analysis of asphalt road advantages and disadvantages" By (DASWELL, 2023).
+
+
+                              </figcaption>
+                           </section>
+                           <section id="concrete">
+                               <h2>Concrete Roads: Pros and Cons</h2>
+                               <p>The structural strength of concrete roads is what makes them stand out from the rest. Their rigid construction allows them to endure the wear and tear of time. Also, their natural reflective surface helps improve visibility in the dark (perrin, 2023).
+                               Despite their structural strength, concrete roads can still be challenging to maintain due to their various characteristics. One of these is their susceptibility to damage caused by wintry weather. This vulnerability can affect the integrity of the concrete structure (perrin, 2023).
+                               Concrete roads offer powerful endurance and strength. But they also face challenges in terms of environmental and maintenance issue (DASWELL, 2022).
+                   </p>
+                             <img src="https://daswell.com/kind/image/20221209/20221209164922_25112.jpg" alt="benefits Image" style="width:100%; max-width:900px; height:auto;">
+                             <figcaption> Figure 5. "Comparative analysis of concrete road advantages and disadvantages" By (DASWELL, 2023).
+
+
+                             </figcaption>
+                           </section>
+                           <section id="economic">
+                               <h2>Economic Implications</h2>
+                               <p>The economics of maintaining and building roads are often complex, as they involve both long-term investments and initial costs. With the right materials and construction techniques, asphalt can provide immediate benefits. Its maintenance also helps maintain a budget-friendly road system (DASWELL, 2022).
+                               Compared to asphalt, concrete is more expensive. This material also requires a larger upfront investment. The maintenance of concrete roads typically leads to grand and costly productions that require a lot of resources and lengthy road closures (perrin, 2023).
+                               The convenience and productivity of asphalt contribute to its smooth and economical appearance. On the other hand, concrete can introduce a bit of dissonance in the economic cost of its higher maintenance costs (Linkedin, 2023).
+                   </p>
+                             <img src="https://media.licdn.com/dms/image/D4D12AQHsoGBxLJHx9Q/article-cover_image-shrink_720_1280/0/1682516879818?e=2147483647&v=beta&t=-CMcGhukjhRZJnTqiFZfN9MhilWtZJeuJFv_fHaLcw0" alt="concrete Image" style="width:100%; max-width:900px; height:auto;">
+                             <figcaption> Figure 6. "Asphalt vs Concrete Roads: Which is Better?" By (Nitesh Tank, 2023).
+
+
+                              </figcaption>
+                           </section>
+                           <section id="environmental">
+                               <h2>Environmental Considerations</h2>
+                               <p>When choosing the right materials for road construction, environmental factors play a significant role. For instance, asphalt is more eco-friendly than concrete. It can be reused and recycled, which helps minimise waste and conserve resources. Also, it absorbs less heat, which helps maintain a cool urban environment (Linkedin, 2023).
+                               Compared to concrete, asphalt tends to release more greenhouse gases when it's produced, which can contribute to climate change and affect air quality. On the other hand, concrete roads have better albedo effects, which help absorb less heat and reflect sunlight (Linkedin, 2023).
+                               Concrete production is resource-intensive, and it also has an extensive impact on the environment. Both concrete and asphalt have their distinct environmental challenges that need to be evaluated to make informed decisions (for construction pros, 2023).
+                   </p>
+                              <img src="https://b2323339.smushcdn.com/2323339/wp-content/uploads/2018/12/Dec-2018-Blog-Main-Image-shutterstock_127040030-1000x576.jpg?lossy=1&strip=1&webp=1" alt="environmental Image" style="width:100%; max-width:900px; height:auto;">
+
+                             <figcaption> Figure 6. "Green recycling symbol on asphalt" By (kempere quipment, 2023).
+
+
+                             </figcaption>
+                           </section>
+                           <section id="conclusion">
+                               <h2>Conclusion</h2>
+                               <p>The study aimed to analyse and discuss the prevailing wisdom behind the using asphalt as the primary material for road construction over concrete. Through a comprehensive analysis of various factors, such as historical developments, the paper was able to reveal that asphalt is more beneficial for the transportation industry than concrete.
+                               In conclusion, compared to concrete, asphalt offers a practical approach to addressing the immediate infrastructural needs of the transportation sector. It is more cost-effective, adaptable to environmental demands, and flexible enough to meet the needs of varying traffic loads. Concrete is expensive, vulnerable to environmental elements, and has a lengthy curing time.
+                               we also explored the various decision-making processes that are involved in the construction of roads. It revealed that the choice of material for the project is not just a technical matter but a complex one that involves multiple factors such as environmental impact, societal expectations, and economic considerations. Through the study, we were able to gain a deeper understanding of the various factors that affect the decisions that are involved in the construction of roads.
+                   </p>
+                              </section>
+
+                             <section id="references">
+                                 <h2>References</h2>
+                                 <ul>
+                                     <li>apai, 2023. BENEFITS OF ASPHALT. [Online] Available at: <a href="https://www.apai.net/Files/content/Asphalt/Asphalt_Benefits_Page.pdf">https://www.apai.net/Files/content/Asphalt/Asphalt_Benefits_Page.pdf</a> [Accessed 25 10 2023].</li>
+                                    
+                                     <li>DASWELL, 2022. Asphalt Road VS Concrete Road: Pros And Cons. [Online] Available at: <a href="https://daswell.com/blog/compare-asphalt-road-and-concrete-road/">https://daswell.com/blog/compare-asphalt-road-and-concrete-road/</a> [Accessed 25 10 2023].</li>
+                                     <li>eapa.org, 2023. Advantages of Asphalt. [Online] Available at: <a href="https://eapa.org/advantages-of-asphalt/">https://eapa.org/advantages-of-asphalt/</a> [Accessed 25 10 2023].</li>
+                                     <li>Linkedin, 2023. Asphalt vs Concrete Roads: Which is Better?. [Online] Available at: <a href="https://www.linkedin.com/pulse/asphalt-vs-concrete-roads-which-better-nitesh-tank">https://www.linkedin.com/pulse/asphalt-vs-concrete-roads-which-better-nitesh-tank</a> [Accessed 26 10 2023].</li>
+                                     <li>perrin, 2023. Concrete vs Asphalt Roads: Pros and Cons of Each. [Online] Available at: <a href="https://www.perrinconstructionredding.com/blog/2018/9/25/concrete-vs-asphalt-roads-pros-and-cons-of-each">https://www.perrinconstructionredding.com/blog/2018/9/25/concrete-vs-asphalt-roads-pros-and-cons-of-each</a> [Accessed 25 10 2023].</li>
+                                     
+                                
+                                   <li>devostock. (2018). <em>Nature and landscape</em>. [Online]. Available at: <a href="https://www.devostock.com/stock-photo/devostock-beautiful-nature-scene-4k-8626.html" target="_blank">https://www.devostock.com/stock-photo/devostock-beautiful-nature-scene-4k-8626.html</a> [Accessed 22 November 2023].</li>
+
+                                   <li>Tank, N. (2023). <em>Asphalt vs Concrete Roads: Which is Better?</em>. [Online]. Available at: <a href="https://www.linkedin.com/pulse/asphalt-vs-concrete-roads-which-better-nitesh-tank" target="_blank">https://www.linkedin.com/pulse/asphalt-vs-concrete-roads-which-better-nitesh-tank</a> [Accessed 22 November 2023].</li>
+
+                                   <li>for construction pros, 2023. Asphalt Better for the Environment Long-Term. [Online] Available at: <a href="https://www.forconstructionpros.com/asphalt/news/20867523/study-asphalt-is-better-for-the-environment-longterm">https://www.forconstructionpros.com/asphalt/news/20867523/study-asphalt-is-better-for-the-environment-longterm</a> [Accessed 09 11 2023].</li>
+
+                                   <li>John Davis, 2023. asphalt magazine. [Online] Available at: <a href="http://asphaltmagazine.com/asphalthistory_two/">http://asphaltmagazine.com/asphalthistory_two/</a> [Accessed 25 11 2023].</li>
+
+                                   <li>unique paving materials, 2015. Asphalt Paving Throughout History. [Online] Available at: <a href="https://www.uniquepavingmaterials.com/asphalt-paving-throughout-history/">https://www.uniquepavingmaterials.com/asphalt-paving-throughout-history/</a> [Accessed 11 11 2023].</li>
+
+                                   <li>Zemco group, 2023. Zemco Asphalt. [Online] Available at: <a href="https://zemcogroup.com/en/zemco-asphalt/">https://zemcogroup.com/en/zemco-asphalt/</a> [Accessed 22 11 2023].</li>
+
+                                   <li>kempere quipment, 2023. A Closer Look at Recycled Asphalt: What It Is and Why It Matters. [Online] Available at: <a href="https://www.kemperequipment.com/blog/a-closer-look-at-recycled-asphalt-what-it-is-and-why-it-matters/">https://www.kemperequipment.com/blog/a-closer-look-at-recycled-asphalt-what-it-is-and-why-it-matters/</a> [Accessed 25 11 2023].</li>
+                                   
+                                 </ul>
+                             </section>
