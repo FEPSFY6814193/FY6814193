@@ -244,7 +244,17 @@
 
                                  </ul>
                              </section>
+<div id="time"></div>
 
+   <script>
+      function updateTime() {
+         var now = new Date();
+         var formattedTime = now.toString();
+         document.getElementById('time').textContent = formattedTime;
+      }
+
+      setInterval(updateTime, 1000);
+   </script>
 
                              <hr>
                          <script>
